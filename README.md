@@ -4,7 +4,13 @@ SvelteKit frontend for Kirby + KQL backend
 
 ## Backend Setup
 
-1. Modify `config.php`:
+1. Run in terminal:
+```shell
+composer i
+composer require getkirby/kql
+valet link # for Valet users
+```
+2. Modify `config.php`:
 ```php
 return [
   'api' => [
@@ -12,12 +18,6 @@ return [
     'allowInsecure' => true # dev only
   ]
 ];
-```
-2. Run in terminal:
-```shell
-composer i
-composer require getkirby/kql
-valet link # for Valet users
 ```
 3. Install the Panel 
 4. Create an API user
