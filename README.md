@@ -19,6 +19,8 @@ composer i
 composer require getkirby/kql
 valet link # for Valet users
 ```
+3. Install the Panel 
+4. Create an API user
 
 ## Frontend Setup
 
