@@ -15,7 +15,6 @@
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "dotenv": "^9.0.2",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^9.0.2"
   }
 }

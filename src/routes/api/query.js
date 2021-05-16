@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -14,7 +13,7 @@ export async function post(req) {
       'Authorization': `Basic ${auth}`,
     },
     // body: JSON.stringify(req.body),
-  })
+  });
   const data = await res.json();
 
   return {

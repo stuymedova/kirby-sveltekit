@@ -17,9 +17,8 @@
 
 <script>
 	export let result;
-	result = result.title;
 </script>
 
 <main>
-	<h1>{result}</h1>
+	<h1>{result.title}</h1>
 </main>
