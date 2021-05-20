@@ -2,9 +2,12 @@
 	export async function load({ fetch }) {
 		const res = await fetch('/api/query', {
 			method: 'POST',
-			// body: JSON.stringify({
-			// 	query: 'site.title',
-			// }),
+			headers: {
+				'content-type': 'application/json'
+			},
+			body: JSON.stringify({
+				query: 'site.find("home").title',
+			}),
 		});
 		const data = await res.json();
 
@@ -20,5 +23,5 @@
 </script>
 
 <main>
-	<h1>{result.title}</h1>
+	<h1>{result}</h1>
 </main>

@@ -10,9 +10,10 @@ export async function post(req) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      'Authorization': `Basic ${auth}`,
+      'authorization': `Basic ${auth}`,
+      'content-type': 'application/json'
     },
-    // body: JSON.stringify(req.body),
+    body: JSON.stringify(req.body),
   });
   const data = await res.json();
 
