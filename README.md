@@ -4,7 +4,7 @@ SvelteKit frontend for Kirby + KQL backend
 
 ## Backend Setup
 
-See [github.com/stuymedova/kirby-headless](https://github.com/stuymedova/kirby-headless).
+See [github.com/stuymedova/kirby-headless](https://github.com/stuymedova/kirby-headless)
 
 ## Frontend Setup
 
