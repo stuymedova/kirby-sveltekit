@@ -20,11 +20,23 @@ See [github.com/stuymedova/kirby-headless](https://github.com/stuymedova/kirby-h
 └── .env      
 ```
 
+### Prerequisites
+
+[Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+
 ### Setup
 
 1. Duplicate `.env.example` as `.env` and adapt its values
 2. Run in terminal:
 ```shell
-npm i
-npm run dev/build/preview
+npm install
+npm run dev
+npm run build
+npm run preview
 ```
+
+### Result
+
+<img width="1552" alt="kirby-sveltekit" src="https://user-images.githubusercontent.com/53351370/121819483-fbb3f380-cc95-11eb-8b0c-d36db40ef13f.png">
+
+The "Home" title is fetched from the backend.
