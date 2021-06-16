@@ -37,4 +37,4 @@ npm run preview
 
 ### Result
 
-<img width="1552" alt="kirby-sveltekit" src="https://user-images.githubusercontent.com/53351370/121819483-fbb3f380-cc95-11eb-8b0c-d36db40ef13f.png">
+<img width="1552" alt="kirby-sveltekit" src="https://user-images.githubusercontent.com/53351370/122302858-5d30c800-cf0b-11eb-8f97-58edc96c6767.png">
