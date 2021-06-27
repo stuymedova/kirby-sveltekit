@@ -30,9 +30,7 @@ See [github.com/stuymedova/kirby-headless](https://github.com/stuymedova/kirby-h
 2. Run in terminal:
 ```shell
 npm install
-npm run dev
-npm run build
-npm run preview
+npm run dev # or npm run build/preview
 ```
 
 ### Result
