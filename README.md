@@ -1,6 +1,8 @@
-# Kirby Sveltekit
+# Kirby SvelteKit
 
-SvelteKit frontend for Kirby + KQL backend
+SvelteKit frontend for Kirby + KQL backend.
+
+> ⚠️ This repository needs to be updated to work with the latest changes, see [#5748](https://github.com/sveltejs/kit/discussions/5748) and [#5774](https://github.com/sveltejs/kit/discussions/5774).
 
 ## Backend Setup
 
